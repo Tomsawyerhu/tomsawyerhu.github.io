@@ -1,0 +1,78 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Haichuan Hu
+    - name: Location
+      value: Hong Kong SAR
+    - name: Email
+      value: <a href="mailto:haichuan.hu@connect.polyu.hk">haichuan.hu@connect.polyu.hk</a>
+    - name: Languages
+      value: Chinese (native); English (TOEFL 102, IELTS 6.5)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computing
+      institution: The Hong Kong Polytechnic University, Hong Kong SAR
+      year: Jan. 2026 - Present
+      description:
+        - "Research area: Emotional Support"
+        - "Supervisor: Prof. Wenjie Li"
+    - title: Master of Engineering in Software Engineering
+      institution: Nanjing University, Nanjing, China
+      year: Sep. 2022 - Jun. 2024
+      description:
+        - "GPA: 85/100"
+        - "Supervisor: Prof. Zhenyu Chen"
+    - title: Bachelor of Engineering in Software Engineering
+      institution: Nanjing University, Nanjing, China
+      year: Sep. 2018 - Jun. 2022
+      description:
+        - "GPA: 87/100 (top 25%)"
+        - "Supervisor: Prof. Zhenyu Chen"
+
+- title: Industry and Research Experience
+  type: time_table
+  contents:
+    - title: Backend Developer, PolarDB
+      institution: Alibaba Cloud Computing Co., Ltd., Hangzhou, China
+      year: Jul. 2024 - Dec. 2025
+      description:
+        - Contributed to product development for Alibaba Cloud's cloud-native relational database.
+    - title: Copilot and Incident Analytics Project
+      institution: Microsoft, Suzhou, China
+      year: Apr. 2024 - Jun. 2024
+      description:
+        - Built an LLM-based incident consultation system and an internal Copilot knowledge question-answering system with retrieval and document synchronization.
+    - title: Software Engineering Intern
+      institution: Alibaba.com, Hangzhou, China
+      year: Jun. 2023 - Sep. 2023
+      description:
+        - Designed and executed a MySQL migration of approximately 200 million records while preserving data consistency and integrity.
+    - title: Software Engineering Intern
+      institution: Alibaba Cloud Computing Co., Ltd., Hangzhou, China
+      year: Jun. 2021 - Aug. 2021
+      description:
+        - Managed MySQL cluster machines and developed Go scripts for routine health checks and failure recovery.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - First Prize, vivo Hackathon
+    - year: 2020
+      items:
+        - Third Prize, Citi Financial Innovation Application Competition
+    - year: 2019
+      items:
+        - Second Prize, People's Scholarship, Nanjing University
+
+- title: Research Interests
+  type: list
+  contents:
+    - Emotional Support
+    - Personalized Alignment
+    - Large Language Models and LLM Agents
+    - AI for Software Engineering
