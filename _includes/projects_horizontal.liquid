@@ -11,6 +11,9 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {% if project.icon %}
+              <div class="project-theme-icon" role="img" aria-label="{{ project.icon_label }}">{{ project.icon }}</div>
+            {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
