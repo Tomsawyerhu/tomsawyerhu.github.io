@@ -53,7 +53,8 @@ body.sticky-bottom-footer {
 // TODO: redefine projects layout.
 // Compact thematic marker shown on project cards.
 .project-theme-icon {
-  margin-bottom: 0.65rem;
-  font-size: 1.35rem;
+  display: inline-block;
+  margin-right: 0.45rem;
+  font-size: 1.05em;
   line-height: 1;
 }
