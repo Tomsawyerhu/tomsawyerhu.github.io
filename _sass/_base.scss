@@ -518,6 +518,53 @@ footer.sticky-bottom {
   }
 }
 
+.footer-quote {
+  max-width: 48rem;
+  min-height: 4.5rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  &__text {
+    margin: 0;
+    border-left: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.65;
+  }
+
+  &__author {
+    min-height: 1.5rem;
+    margin-top: 0.45rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+  }
+
+  .is-typing::after {
+    content: "";
+    display: inline-block;
+    width: 0.08em;
+    height: 1em;
+    margin-left: 0.12em;
+    vertical-align: -0.08em;
+    background: currentColor;
+    animation: footer-quote-cursor 0.8s steps(1) infinite;
+  }
+}
+
+@keyframes footer-quote-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-quote .is-typing::after {
+    animation: none;
+  }
+}
+
 // CV
 
 .cv {

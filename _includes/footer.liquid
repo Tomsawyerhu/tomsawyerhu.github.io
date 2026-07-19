@@ -1,14 +1,13 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <figure
+    class="footer-quote"
+    data-quotes-url="{{ '/assets/json/philosophical_quotes.json' | relative_url }}"
+  >
+    <blockquote class="footer-quote__text">
+      “<span data-quote-text>The soul becomes dyed with the colour of its thoughts.</span>”
+    </blockquote>
+    <figcaption class="footer-quote__author" data-quote-author>— Marcus Aurelius</figcaption>
+  </figure>
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -28,3 +27,5 @@
     </div>
   </footer>
 {% endif %}
+
+<script defer src="{{ '/assets/js/footer-quote.js' | relative_url | bust_file_cache }}"></script>
