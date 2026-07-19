@@ -35,6 +35,16 @@ ninja.data = [{
           description: "A modular Codex skill for planning, drafting, revising, and reviewing Chinese web fiction. It combines task-specific writing modules with local corpus retrieval to support story concepts, openings, dialogue, transitions, chapter endings, plot and character consistency, long-form outlining, and a more natural narrative voice.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chinese-webnovel-skill/";
+            },},{id: "projects-persona-poker",
+          title: 'Persona Poker',
+          description: "A personalized multi-agent Texas Hold&#39;em simulation framework that gives agents distinct playing styles, memory, and context-aware decision policies for studying bluffing, exploitability, and long-term performance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/persona-poker/";
+            },},{id: "projects-persona-skill",
+          title: 'Persona Skill',
+          description: "A source-first persona engineering system that turns biographies, interviews, quotes, chat logs, and documents into evidence-grounded personas that can be distilled, switched, fused, and role-played through a unified command workflow.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/persona-skill/";
             },},{
         id: 'social-cv',
         title: 'CV',
