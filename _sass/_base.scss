@@ -827,6 +827,12 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .publication-ranking {
+        margin-left: 0.25rem;
+        white-space: nowrap;
+        font-weight: 700;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
