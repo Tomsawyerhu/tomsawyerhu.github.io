@@ -7,8 +7,8 @@
       value: Hong Kong SAR
     - name: Email
       value: <a href="mailto:haichuan.hu@connect.polyu.hk">haichuan.hu@connect.polyu.hk</a>
-    - name: Languages
-      value: Chinese (native); English (TOEFL 102, IELTS 6.5)
+    - name: Homepage
+      value: <a href="https://tomsawyerhu.github.io/">tomsawyerhu.github.io</a>
 
 - title: Education
   type: time_table
@@ -31,6 +31,28 @@
       description:
         - "GPA: 87/100 (top 25%)"
         - "Supervisor: Prof. Zhenyu Chen"
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: '<a href="https://arxiv.org/abs/2605.30105">Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair</a>'
+      institution: 49th IEEE/ACM International Conference on Software Engineering (ICSE), <strong>CCF-A</strong>
+      year: 2027
+      maindescription: <strong>Haichuan Hu</strong>, Guoqing Xie, Quanjun Zhang, Jiawei Liu, Shengcheng Yu, Chunrong Fang, Zhenyu Chen, and Liang Xiao.
+      linkitems:
+        - link: https://arxiv.org/abs/2605.30105
+          linkname: arXiv
+        - link: https://github.com/Tomsawyerhu/Learn-from-Repair-Experience
+          linkname: GitHub
+    - title: '<a href="https://arxiv.org/abs/2609.09657">RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems</a>'
+      institution: Findings of the 5th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 15th International Joint Conference on Natural Language Processing (AACL-IJCNLP)
+      year: 2026
+      maindescription: <strong>Haichuan Hu</strong>, Yang Xiao, Mingni Tang, Jiawen Duan, Quanjun Zhang, Congqing He, Hao Zhang, Jiashuo Wang, Johan F. Hoorn, and Wenjie Li.
+      linkitems:
+        - link: https://arxiv.org/abs/2609.09657
+          linkname: arXiv
+        - link: https://github.com/Tomsawyerhu/RESCUE-bench
+          linkname: GitHub
 
 - title: Industry and Research Experience
   type: time_table
@@ -55,19 +77,6 @@
       year: Jun. 2021 - Aug. 2021
       description:
         - Managed MySQL cluster machines and developed Go scripts for routine health checks and failure recovery.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - First Prize, vivo Hackathon
-    - year: 2020
-      items:
-        - Third Prize, Citi Financial Innovation Application Competition
-    - year: 2019
-      items:
-        - Second Prize, People's Scholarship, Nanjing University
 
 - title: Research Interests
   type: list
