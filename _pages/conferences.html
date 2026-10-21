@@ -1,0 +1,77 @@
+---
+layout: default
+title: conferences
+permalink: /conferences/
+nav: true
+nav_order: 4
+conference_gallery: true
+hide_footer: true
+---
+
+<article class="conference-page">
+  <header class="conference-page__header">
+    <h1>Conferences</h1>
+  </header>
+
+  {% for conference in site.data.conferences %}
+  <section class="conference-collection" aria-labelledby="{{ conference.directory }}-title">
+    <h2 class="conference-heading" id="{{ conference.directory }}-title">
+      <span class="conference-heading__name">{{ conference.title }}</span>
+      <span class="conference-heading__location">{{ conference.location }}</span>
+    </h2>
+    <div class="conference-wall" data-conference-wall>
+      {% for row in conference.rows %}
+      <div class="conference-row">
+        {% for photo in row %} {% assign photo_path = '/assets/img/' | append: conference.directory | append: '/photo-' | append: photo.id %} {%
+        assign photo_ratio = photo.width | times: 1.0 | divided_by: photo.height %}
+        <a
+          class="conference-photo"
+          href="{{ photo_path | append: '-large.webp' | relative_url }}"
+          style="--photo-ratio: {{ photo_ratio }}"
+          data-conference-photo
+          aria-label="Preview: {{ photo.alt | escape }}"
+        >
+          <img
+            src="{{ photo_path | append: '.webp' | relative_url }}"
+            alt="{{ photo.alt | escape }}"
+            width="{{ photo.width }}"
+            height="{{ photo.height }}"
+            {%
+            if
+            forloop.parentloop.first
+            %}
+            loading="eager"
+            {%
+            else
+            %}
+            loading="lazy"
+            {%
+            endif
+            %}
+            decoding="async"
+          />
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</article>
+
+<dialog class="conference-lightbox" aria-label="Conference photo preview" data-conference-lightbox>
+  <button class="conference-lightbox__close" type="button" aria-label="Close photo preview" autofocus>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6" /></svg>
+  </button>
+  <button class="conference-lightbox__previous" type="button" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7" /></svg>
+  </button>
+  <div class="conference-lightbox__stage">
+    <img class="conference-lightbox__image" alt="" draggable="false" />
+  </div>
+  <button class="conference-lightbox__next" type="button" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7" /></svg>
+  </button>
+</dialog>
+
+<script defer src="{{ '/assets/js/conferences.js' | relative_url | bust_file_cache }}"></script>

@@ -1,0 +1,25 @@
+- title: ASE 2026
+  location: Munich, Germany
+  directory: ase2026
+  rows:
+    - - { id: 207, width: 4032, height: 3024, alt: "Presenting PSearch at ASE 2026 in Munich" }
+      - { id: 212, width: 4096, height: 3072, alt: "Munich's New Town Hall beneath a blue sky" }
+    - - { id: 208, width: 3888, height: 5184, alt: "Haichuan Hu visiting Neuschwanstein Castle" }
+      - { id: 209, width: 4096, height: 3072, alt: "Neuschwanstein Castle above the autumn forest" }
+      - { id: 203, width: 3072, height: 4096, alt: "The Marian column in Marienplatz" }
+    - - { id: 201, width: 4096, height: 3072, alt: "Golden sunset over Munich's railway tracks" }
+      - { id: 215, width: 4096, height: 3072, alt: "Blue sky reflected in a river in Munich" }
+    - - { id: 202, width: 4096, height: 3072, alt: "Blue and gold details inside a Munich church" }
+      - { id: 204, width: 3072, height: 4096, alt: "Warm pendant lights and stained glass" }
+      - { id: 205, width: 3072, height: 4096, alt: "A church altar framed by yellow drapery" }
+      - { id: 206, width: 3072, height: 4096, alt: "Ornate gilded interior of the Asam Church" }
+    - - { id: 213, width: 4096, height: 3072, alt: "A bronze statue outside Munich's National Theatre" }
+      - { id: 214, width: 4096, height: 3072, alt: "Autumn trees beside a stone colonnade" }
+      - { id: 210, width: 3072, height: 4096, alt: "A church spire above the streets of Munich" }
+    - - { id: 217, width: 4096, height: 3072, alt: "Sunshine and autumn trees in a Munich park" }
+      - { id: 216, width: 3072, height: 4096, alt: "A mirror portrait during the Munich trip" }
+      - { id: 218, width: 4096, height: 3072, alt: "Munich architecture reflected in a passing tram" }
+    - - { id: 198, width: 4096, height: 3072, alt: "A shared dinner during the Munich trip" }
+      - { id: 199, width: 3072, height: 4096, alt: "Dinner served on a wooden board" }
+      - { id: 200, width: 4096, height: 3072, alt: "A traditional Bavarian meal" }
+      - { id: 211, width: 4096, height: 3072, alt: "Bavarian roast pork and dumplings" }
