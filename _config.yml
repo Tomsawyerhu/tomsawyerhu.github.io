@@ -316,6 +316,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    cv_selected,
     dimensions,
     eprint,
     google_scholar_id,
