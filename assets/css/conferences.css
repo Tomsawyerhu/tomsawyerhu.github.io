@@ -54,9 +54,10 @@
   background: #24211d;
   border-radius: 5px;
   box-shadow:
-    0 1px 3px rgb(0 0 0 / 14%),
-    0 15px 35px -12px rgb(30 23 14 / 30%),
-    0 35px 70px -30px rgb(30 23 14 / 30%);
+    0 0 0 1px rgb(30 23 14 / 18%),
+    0 3px 9px rgb(0 0 0 / 24%),
+    0 20px 45px -10px rgb(30 23 14 / 46%),
+    0 45px 90px -24px rgb(30 23 14 / 42%);
 }
 
 .conference-row {
@@ -88,8 +89,10 @@
   content: "";
   pointer-events: none;
   box-shadow:
-    inset 0 0 0 1px rgb(255 255 255 / 9%),
-    inset 0 0 14px rgb(0 0 0 / 24%);
+    inset 0 1px 0 rgb(255 255 255 / 18%),
+    inset 0 0 0 1px rgb(0 0 0 / 18%),
+    inset 0 0 5px rgb(0 0 0 / 30%),
+    inset 0 0 30px rgb(0 0 0 / 46%);
 }
 
 .conference-photo img {
