@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-conferences",
+          title: "conferences",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/conferences/";
+          },
         },{id: "projects-chinese-webnovel-skill",
           title: 'Chinese WebNovel Skill',
           description: "A modular Codex skill for planning, drafting, revising, and reviewing Chinese web fiction. It combines task-specific writing modules with local corpus retrieval to support story concepts, openings, dialogue, transitions, chapter endings, plot and character consistency, long-form outlining, and a more natural narrative voice.",
