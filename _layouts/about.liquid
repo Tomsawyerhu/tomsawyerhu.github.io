@@ -64,6 +64,18 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Reviewing experience -->
+    {% if page.reviewing_experience %}
+      <h2>reviewing experience</h2>
+      <ul>
+        {% for review in page.reviewing_experience %}
+          <li>
+            <strong>{{ review.year }}</strong> — {{ review.role }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
