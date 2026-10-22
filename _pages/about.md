@@ -10,6 +10,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+visitor_stats: true # subtle homepage-only traffic counter
 
 reviewing_experience:
   - year: 2026

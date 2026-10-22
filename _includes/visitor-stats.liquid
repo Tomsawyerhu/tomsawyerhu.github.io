@@ -1,0 +1,12 @@
+<p
+  class="visitor-stats"
+  data-counter-host="{{ site.url | split: '://' | last | split: '/' | first }}"
+  aria-label="Homepage visits and estimated unique visitors"
+  title="Homepage traffic since October 22, 2026. Visitors are an estimate, not an exact headcount. Powered by Busuanzi."
+  hidden
+>
+  <span id="busuanzi_container_site_pv" style="display: none">Visits <span id="busuanzi_value_site_pv"></span></span>
+  <span class="visitor-stats__separator" aria-hidden="true">·</span>
+  <span id="busuanzi_container_site_uv" style="display: none">Visitors <span id="busuanzi_value_site_uv"></span></span>
+</p>
+<script defer src="{{ '/assets/js/visitor-stats.js' | relative_url | bust_file_cache }}"></script>

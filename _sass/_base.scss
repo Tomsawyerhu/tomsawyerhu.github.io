@@ -485,6 +485,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Quiet homepage traffic summary
+.visitor-stats {
+  margin: 1.25rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+
+  &,
+  span {
+    color: var(--global-text-color-light);
+  }
+
+  &__separator {
+    margin: 0 0.65em;
+  }
+}
+
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
